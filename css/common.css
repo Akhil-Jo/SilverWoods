@@ -378,6 +378,270 @@
   cursor: default;
 }
 
+.blog-bg {
+  background-image: url(../image/blog_banner_bg.png);
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.blog-content-sec {
+  padding-top: 1em;
+  padding-bottom: 4em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-detail-sec {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-detail-head h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 28px;
+  color: #AA642B;
+}
+
+.blog-detail-head p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.blog-detail-share-items {
+  display: flex;
+  gap: 30px;
+  font-size: 24px;
+  align-items: baseline;
+}
+
+.blog-detail-share-items p {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 18px;
+}
+
+.blog-detail-content-sec h5 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.blog-detail-content-sec p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+}
+
+.blog-detail-content-box-sec {
+  border: 1px solid #000;
+  padding: 2em;
+}
+
+.blog-detail-content-box-sec label {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 18px;
+}
+
+.blog-detail-input {
+  border-radius: 0 !important;
+}
+
+.check-label {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 12px;
+}
+
+.contact-bg {
+  background-image: url(../image/contact_banner_bg.png);
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.contact-sec {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-explore-sec {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-contant-main h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-bottom: 20px;
+}
+
+.contact-contant-main h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #AA642B;
+}
+
+.contact-contant-main p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.contact-content-sec h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.contact-content-sec p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-bottom: 0 !important;
+  line-height: 25px;
+}
+
+.contact-sec-line {
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
+.contact-img-inner-content-sec {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  margin: 5em 4em;
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.contact-img-inner-content-sec h5 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-transform: uppercase;
+}
+
+.contact-img-inner-content-sec h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 30px;
+}
+
+.contact-btn {
+  background-color: #B99D75;
+  color: white;
+  font-size: 16px;
+  padding: 20px 25px;
+  border: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  width: 100%;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #AA642B;
+  color: white;
+}
+
+.contact-img {
+  width: 100%;
+  height: 650px;
+}
+
+.contact-enjoy-stay {
+  background-image: url(../image/contact_content_img_2.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
 .content-sec {
   padding-top: 3em;
   padding-bottom: 2em;
@@ -541,7 +805,7 @@
 
 .room-suite-main p {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -590,11 +854,10 @@
   z-index: 2;
   width: 40px !important;
   height: 40px !important;
-  background-color: #AA642B !important;
-  border: 1px solid #fff !important;
   color: #000 !important;
   font-size: 24px !important;
   border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .card-slider-explore .slick-next {
@@ -602,8 +865,7 @@
   top: 140px;
   width: 40px !important;
   height: 40px !important;
-  background-color: #AA642B !important;
-  border: 1px solid #fff !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
   color: #000 !important;
   font-size: 24px !important;
   border-radius: 50px;
@@ -630,7 +892,7 @@
   z-index: 2;
   width: 40px !important;
   height: 40px !important;
-  background-color: #AA642B !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
   color: #000 !important;
   font-size: 24px !important;
   border-radius: 50px;
@@ -641,7 +903,7 @@
   top: 140px;
   width: 40px !important;
   height: 40px !important;
-  background-color: #AA642B !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
   color: #000 !important;
   font-size: 24px !important;
   border-radius: 50px;
@@ -762,7 +1024,7 @@
 }
 
 .chooseUs-content h6 {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -1022,7 +1284,7 @@
   height: auto;
 }
 
-.Stars {
+.stars {
   --percent: calc(var(--rating) / 5 * 100%);
   display: inline-block;
   font-size: 22px;
@@ -1030,10 +1292,26 @@
   line-height: 1;
 }
 
-.Stars::before {
+.stars::before {
   content: "★★★★★";
   letter-spacing: 3px;
   background: linear-gradient(90deg, #fc0 var(--percent), #fff var(--percent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stars-green {
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-block;
+  font-size: 22px;
+  font-family: Times;
+  line-height: 1;
+}
+
+.stars-green::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, #082921 var(--percent), #fff var(--percent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1095,7 +1373,7 @@
 }
 
 .blog-content h6 {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -1270,10 +1548,7 @@
 
 .hotel-booking-form-head h5 {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
   color: #666;
   text-transform: uppercase;
   font-size: 14px;
@@ -1281,34 +1556,27 @@
 
 .hotel-booking-form-head h3 {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .hotel-booking-select-box {
-  border: none;
-  color: #fff;
-  width: 100%;
   position: relative;
-  height: 60px;
   background-color: #fff;
+  border: none;
+  width: 100%;
+  height: 60px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .hotel-booking-select-box-text {
   position: absolute;
-  z-index: 1;
-  border: none;
-  font-size: 16px;
   top: 16px;
   left: 24px;
+  font-size: 16px;
   color: #000;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .check-hotel-booking {
@@ -1318,16 +1586,14 @@
   background-color: transparent !important;
   border: none !important;
   color: #000 !important;
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+  padding-right: 10px;
+  padding-left: 140px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .check-hotel-booking::-webkit-calendar-picker-indicator {
-  filter: invert(80%) sepia(62%) saturate(3817%) hue-rotate(287deg) brightness(91%) contrast(91%) !important;
-  /* Black color */
+  filter: invert(58%) sepia(16%) saturate(2431%) hue-rotate(326deg) brightness(94%) contrast(95%) !important;
 }
 
 .hotel-booking-drop {
@@ -1337,26 +1603,20 @@
   padding: 1em 1.5em;
   font-size: 16px;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
   display: flex;
   align-items: center;
 }
 
 .hotel-booking-drop.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 7em;
-  vertical-align: 0.255em;
+  margin-left: auto;
   content: "";
   border-top: 0.3em solid;
   border-right: 0.3em solid transparent;
-  border-bottom: 0;
   border-left: 0.3em solid transparent;
   color: #AA642B !important;
   position: absolute;
-  right: 20px;
+  right: 15px !important;
 }
 
 .hotel-booking-btn {
@@ -1366,10 +1626,14 @@
   padding: 20px 25px;
   border: none;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   width: 100%;
+  cursor: pointer;
+}
+
+.hotel-booking-img {
+  width: 100%;
+  height: 247px;
 }
 
 .footer {
@@ -1595,9 +1859,6 @@
   .card-insert-content-bottom-sec {
     bottom: 8px;
   }
-  .banner-box {
-    margin-right: 8em;
-  }
   .card-slider-explore .slick-prev {
     top: 170px;
   }
@@ -1636,6 +1897,13 @@
     font-size: 14px !important;
     line-height: 25px !important;
   }
+  .hotel-booking-img {
+    width: 100%;
+    height: auto !important;
+  }
+  .banner-content {
+    max-width: 930px;
+  }
 }
 @media only screen and (max-width: 1186px) {
   .get-consultation {
@@ -1653,9 +1921,6 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  .banner-box {
-    display: none !important;
-  }
   .nav-logo {
     width: 250px !important;
   }
@@ -1745,6 +2010,16 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
     padding: 0px 12px !important;
+  }
+  .modal-img-sec {
+    display: none !important;
+  }
+  .package-details-bottom-content h3 {
+    font-size: 28px !important;
+    line-height: 40px !important;
+  }
+  .banner-content {
+    max-width: 685px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1853,6 +2128,16 @@
   }
   .stay-hotel-main {
     padding: 7rem 0 !important;
+  }
+  .contact-img {
+    height: 715px;
+  }
+  .package-details-bottom-content h3 {
+    font-size: 24px !important;
+    line-height: 35px !important;
+  }
+  .banner-content {
+    max-width: 510px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -2032,6 +2317,51 @@
   .check-hotel-booking {
     font-size: 12px;
   }
+  .blog-detail-head h3 {
+    font-size: 22px;
+  }
+  .blog-detail-head p {
+    font-size: 14px;
+  }
+  .blog-detail-share-items {
+    gap: 22px;
+    font-size: 18px;
+  }
+  .blog-detail-share-items p {
+    font-size: 15px;
+  }
+  .blog-detail-content-sec h5 {
+    font-size: 18px;
+  }
+  .blog-detail-content-sec p {
+    font-size: 14px;
+  }
+  .blog-detail-content-box-sec label {
+    font-size: 14px;
+  }
+  .sightsee-main-box-inner-head-sec h3 {
+    font-size: 24px !important;
+  }
+  .sightsee-main-box-inner-head-sec span {
+    font-size: 12px !important;
+  }
+  .sightsee-main-box-inner-center-sec p {
+    font-size: 14px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec i {
+    margin-right: 12px !important;
+    font-size: 20px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec span {
+    font-size: 14px !important;
+  }
+  .sightsee-read-more {
+    font-size: 14px !important;
+  }
+  .banner-content {
+    width: auto;
+    margin-right: 15px;
+  }
 }
 @media only screen and (max-width: 520px) {
   .get-consultation {
@@ -2062,7 +2392,7 @@
   .img-profile {
     width: 50px;
   }
-  .Stars {
+  .stars {
     font-size: 18px;
   }
   .testimonial-person h5 {
@@ -2109,6 +2439,25 @@
     font-size: 12px !important;
     line-height: 20px !important;
   }
+  .booking-content-main {
+    display: grid !important;
+  }
+  .booking-content-main .select-box {
+    max-width: 100% !important;
+  }
+  .booking-content-main .check-room-box {
+    text-align: end !important;
+  }
+  .booking-content-main .dropdown {
+    width: 100%;
+  }
+  .banner-banner-box-content-sec {
+    display: block !important;
+  }
+  .select-box {
+    max-width: 214px !important;
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .img-play-btn {
@@ -2152,6 +2501,45 @@
   .chooseUs-content h3 {
     font-size: 14px;
   }
+  .contact-contant-main h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .contact-contant-main h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .contact-contant-main p {
+    font-size: 14px;
+  }
+  .contact-content-sec h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .contact-content-sec p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .contact-img-inner-content-sec {
+    margin: 2em 1em;
+    padding: 2em 1em;
+  }
+  .contact-img-inner-content-sec h5 {
+    font-size: 12x;
+  }
+  .contact-img-inner-content-sec h2 {
+    font-size: 24px;
+  }
+  .contact-btn {
+    font-size: 12px;
+  }
+  .contact-img {
+    height: 530px;
+  }
+  .package-details-bottom-content h3 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
 }
 @media only screen and (max-width: 400px) {
   .testimonial-content h3 {
@@ -2167,7 +2555,7 @@
   .img-profile {
     width: 40px;
   }
-  .Stars {
+  .stars {
     font-size: 14px;
   }
   .testimonial-person h5 {
@@ -2200,6 +2588,41 @@
   .location-box {
     width: 200px;
     position: relative;
+  }
+  .package-details-table th {
+    font-size: 14px !important;
+  }
+  .package-details-table td {
+    font-size: 12px;
+  }
+  .sightsee-main-box-inner-head-sec h3 {
+    font-size: 18px !important;
+  }
+  .sightsee-main-box-inner-head-sec span {
+    font-size: 10px !important;
+  }
+  .sightsee-main-box-inner-center-sec p {
+    font-size: 14px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec i {
+    margin-right: 12px !important;
+    font-size: 20px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec span {
+    font-size: 14px !important;
+  }
+  .sightsee-read-more {
+    font-size: 14px !important;
+  }
+  .select-box-text {
+    font-size: 12px !important;
+  }
+  .check-availability {
+    font-size: 12px !important;
+    padding: 9px 55px !important;
+  }
+  .select-box {
+    max-width: 208px !important;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -2262,6 +2685,27 @@
   }
   .newsletter-sec-main span {
     font-size: 12px !important;
+  }
+  .package-content-center h4 {
+    font-size: 16px !important;
+  }
+  .package-btn {
+    font-size: 13px !important;
+  }
+  .package-content-head h5 {
+    font-size: 12px !important;
+  }
+  .package-content-head h3 {
+    font-size: 16px !important;
+  }
+  .package-content-head {
+    top: 15px !important;
+    left: 10px !important;
+  }
+  .package-content-bottom {
+    position: absolute;
+    bottom: 10px !important;
+    right: 10px !important;
   }
 }
 *,
@@ -2351,9 +2795,7 @@ body {
 
 .banner-img {
   width: 100%;
-  max-height: 100dvh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 100dvh;
 }
 
 .header-bar-sec {
@@ -2366,20 +2808,106 @@ body {
   transition: background-color 0.3s ease;
 }
 
+.booking-now-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-img-sec {
+  width: 300px;
+}
+
+.modal-booking-body {
+  border-radius: 0 !important;
+  background-color: #082921;
+}
+
+.modal-content-sec {
+  width: 500px;
+  padding: 2em;
+}
+
+.booking-content-main {
+  display: flex;
+  gap: 19px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #fff;
+}
+
+.modal-content-sec h2 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.modal-booking-input {
+  border: 1px solid #B99D75 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.modal-booking-now {
+  color: white;
+  font-size: 14px;
+  padding: 9px 50px;
+  border: none;
+  background-color: #AA642B;
+  width: 100%;
+}
+
+.modal-booking-now:hover {
+  color: #AA642B;
+  background-color: #fff;
+}
+
+.booking-content-main ::-moz-placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+
+.booking-content-main ::placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+
 .header-bar-sec.scrolled {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+.offcanvas-header .btn-close {
+  background-color: #fff;
+}
+
+.offcanvas {
+  background-color: #082921 !important;
+}
+
 .offcanvas-side-items p {
   font-weight: 400;
-  font-size: 20px;
-  padding: 15px 10px 15px 10px;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
   margin-bottom: 0 !important;
-  border-bottom: 1px solid #d5d5d5;
+  color: #fff;
 }
 
 .offcanvas-side-items p:hover {
-  background-color: #f5f5f5;
+  background-color: #AA642B;
+}
+
+.inner-side-items {
+  padding-left: 40px;
+}
+
+.inner-side-items p {
+  font-size: 15px !important;
 }
 
 .menu-items a {
@@ -2390,9 +2918,17 @@ body {
   font-size: 12px;
 }
 
-.navbar-menu-btn,
-.navbar-booking-btn,
-.nav-menu-Items a {
+.select-box .navbar-menu-btn {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.select-box .navbar-booking-btn {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.select-box .nav-menu-Items a {
   color: #fff;
   transition: color 0.3s ease;
 }
@@ -2495,7 +3031,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.nav-menu-Items a {
+.select-box .nav-menu-Items a {
   text-decoration: none;
   color: #fff;
 }
@@ -2522,6 +3058,7 @@ body {
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  margin: 0 auto;
 }
 
 .banner-banner-box-content-sec {
@@ -2572,21 +3109,23 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-right: 15px;
 }
 
-.dropdown {
+.select-box .dropdown {
   width: 206px;
 }
 
 .check-availability {
-  background-color: #AA642B;
+  border: 1px solid #B99D75 !important;
   color: white;
   font-size: 14px;
   padding: 9px 50px;
   border: none;
+  background-color: transparent;
 }
 
 .check-availability:hover {
-  background-color: #fff;
-  color: #AA642B;
+  background-color: #AA642B;
+  color: #fff;
+  border: 1px solid #AA642B !important;
 }
 
 .check-room-box {
@@ -2598,13 +3137,310 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #fff !important;
 }
 
-.nav-menu-Items a {
+.select-box .nav-menu-Items a {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.sightsee-sec {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sightsee-main-content {
+  border: 1px solid #000;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding: 2em;
+}
+
+.sightsee-top-content li {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.sightsee-main-box-inner-head-sec h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #AA642B;
+  font-size: 28px;
+  margin-bottom: 0 !important;
+}
+
+.sightsee-main-box-inner-head-sec span {
+  background-color: #AA642B;
+  padding: 8px 14px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.sightsee-main-box-inner-center-sec p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+}
+
+.sightsee-main-box-inner-bottom-sec i {
+  color: #AA642B;
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+.sightsee-main-box-inner-bottom-sec span {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 16px;
+}
+
+.sightsee-read-more {
+  border: 1px solid #000;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding: 5px 13px;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.sightsee-bottom-sec {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-sec .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #AA642B !important;
+  color: #fff !important;
+}
+
+.gallery-sec .nav-pills .nav-link {
+  border-radius: 25px !important;
+}
+
+.gallery-sec .nav-pills {
+  gap: 10px !important;
+}
+
+.gallery-sec .nav-link {
+  padding: 10px 35px !important;
+  font-size: 14px !important;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #383A4E !important;
+  background-color: #E2E1E1;
+}
+
+.package-sec {
+  padding-top: 0em;
+  padding-bottom: 2em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-content-sec {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-detail-sec {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-special-sec {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background-image: url(../image/content_bg.png);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-bg {
+  background-image: url(../image/package_banner_bg.png);
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.package-details-bg {
+  background-image: url(../image/packages_details_banner_bg.png);
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.package-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.package-content-head {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.package-content-head h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.package-content-head h5 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #fff;
+  font-size: 14px;
+  width: 80%;
+  line-height: 22px;
+}
+
+.package-content-bottom {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.package-btn {
+  padding: 5px 25px 5px 15px;
+  border: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.package-content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.package-content-center h4 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #fff;
+  font-size: 20px;
+}
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 10% 8%;
+  transition: margin 0.4s ease;
+}
+
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+
+.package-details-bottom-content h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.package-details-table {
+  border: 1px solid #000 !important;
+}
+
+.package-details-table th {
+  background-color: transparent !important;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 50% !important;
+}
+
+.package-details-table td {
+  background-color: transparent !important;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.package-details-table li::marker {
+  color: #AA642B;
 }
 
 .villas-bg {

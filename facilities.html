@@ -31,10 +31,10 @@
                     <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
                 </div>
                 <div>
-                    <img src="image/header_logo.png" id="header-logo" class="nav-logo">
+                    <a href="index.html"><img src="image/header_logo.png" id="header-logo" class="nav-logo"></a>
                 </div>
                 <div class="navbar-booking-btn d-flex align-items-center">
-                    <a href="#"><img src="image/booking_img.png" class="booking-icon"><span>Book Now</span></a>
+                    <button class="booking-now-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="image/booking_img.png" class="booking-icon"><span>Book Now</span></button>
                 </div>
             </div>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -49,32 +49,56 @@
                         <a href="villas.html">
                             <p>Accomodation</p>
                         </a>
-                        <a href="#">
+                        <a href="package.html">
                             <p>Packages</p>
                         </a>
                         <a href="facilities.html">
                             <p>Facilities</p>
                         </a>
-                        <a href="#">
+                        <a href="gallery.html">
                             <p>Gallery</p>
                         </a>
                         <a href="#">
                             <p>Wayanad</p>
                         </a>
-                        <a href="#">
+                        <a href="contact.html">
                             <p>Contact Us</p>
                         </a>
                     </div>
                     <div class="offcanvas-side-items">
                         <a href="#">
+                            <p>Ayurvedic spa</p>
+                        </a>
+                        <a href="#">
+                            <p>Destination Wedding</p>
+                        </a>
+                        <a href="#">
+                            <p>Events & Meetings</p>
+                        </a>
+                        <a href="#">
+                            <p>Explore Wayanad</p>
+                        </a>
+                        <div class="inner-side-items">
+                            <a href="sightseeing.html">
+                                <p>Sight Seeing Places</p>
+                            </a>
+                            <a href="#">
+                                <p>Adventure Tourism</p>
+                            </a>
+                            <a href="#">
+                                <p>Sight Seeing Packages</p>
+                            </a>
+                            <a href="#">
+                                <p>Experiential Trails</p>
+                            </a>
+                        </div>
+                        <a href="blog.html">
                             <p>Blog</p>
                         </a>
                         <a href="#">
                             <p>Testimonial</p>
                         </a>
-                        <a href="#">
-                            <p>Explore Wayanad</p>
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -83,13 +107,23 @@
                 <div class="row">
                     <div class="nav-menu-Items">
                         <ul class="nav-item-sec d-flex justify-content-between">
-                            <li class="Flex-item"><a href="about.html">About Us</a></li>
-                            <li class="Flex-item"><a href="villas.html">Accomodation</a></li>
-                            <li class="Flex-item"><a href="#">Packages</a></li>
-                            <li class="Flex-item"><a href="facilities.html">Facilities</a></li>
-                            <li class="Flex-item"><a href="#">Gallery</a></li>
-                            <li class="Flex-item"><a href="#">Wayanad</a></li>
-                            <li class="Flex-item"><a href="#">Contact Us</a></li>
+                            <li class="flex-item"><a href="about.html">About Us</a></li>
+                            <li class="flex-item"><a href="villas.html">Accomodation</a></li>
+                            <li class="flex-item"><a href="package.html">Packages</a></li>
+                            <li class="flex-item"><a href="facilities.html">Facilities</a></li>
+                            <li class="flex-item"><a href="gallery.html">Gallery</a></li>
+                            <li class="flex-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Wayanad
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="sightseeing.html">Sight Seeing Places</a></li>
+                                    <li><a class="dropdown-item" href="#">Adventure Tourism</a></li>
+                                    <li><a class="dropdown-item" href="#">Sight Seeing Packages</a></li>
+                                    <li><a class="dropdown-item" href="#">Experiential Trails</a></li>
+                                </ul>
+                            </li>
+                            <li class="flex-item"><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -98,7 +132,7 @@
         <div class="about-banner-content">
             <div class="row flex-column align-items-center">
                 <div class="col-10 col-sm-10 col-md-10 col-lg-8 text-center">
-                    <div class="about-head">
+                    <div class="about-head" data-aos="fade-up" data-aos-anchor-placement="top-center">
                         <h3>Facilities</h3>
                         <p>Discover an Oasis of Unparalleled Luxury & Comfort at Wayanad Silverwoods</p>
                     </div>
@@ -109,7 +143,7 @@
 
     <section class="facilities-sec">
         <div class="container">
-            <div class="row flex-column align-items-center justify-content-center">
+            <div class="row flex-column align-items-center justify-content-center" data-aos="fade-down">
                 <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 text-center">
                     <div class="about-welcome-sec mt-5">
                         <p>Start Your Comfortable Stay</p>
@@ -335,32 +369,32 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-xl-6">
-                    <div class="row">
+                    <div class="row" data-aos="fade-down">
                         <div class="col-6 mt-3">
                             <div>
-                                <img src="image/facilities_hotel_booking_img_1.png" class="villas-img">
+                                <img src="image/facilities_hotel_booking_img_1.png" class="hotel-booking-img">
                             </div>
                         </div>
                         <div class="col-6 mt-3">
                             <div>
-                                <img src="image/facilities_hotel_booking_img_2.png" class="villas-img">
+                                <img src="image/facilities_hotel_booking_img_2.png" class="hotel-booking-img">
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" data-aos="fade-up">
                         <div class="col-6 mt-3 mb-3">
                             <div>
-                                <img src="image/facilities_hotel_booking_img_3.png" class="villas-img">
+                                <img src="image/facilities_hotel_booking_img_3.png" class="hotel-booking-img">
                             </div>
                         </div>
                         <div class="col-6 mt-3 mb-3">
                             <div>
-                                <img src="image/facilities_hotel_booking_img_4.png" class="villas-img">
+                                <img src="image/facilities_hotel_booking_img_4.png" class="hotel-booking-img">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-xl-6 mt-3 mb-3">
+                <div class="col-lg-12 col-xl-6 mt-3 mb-3" data-aos="fade-left">
                     <div class="hotel-booking-form-sec">
                         <div class="row">
                             <div class="col-12 mb-3">
@@ -424,7 +458,7 @@
     <section class="content-sec">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-between">
-                <div class="col-md-12 col-lg-6">
+                <div class="col-md-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="chooseUs-content mb-3">
                         <h6>Testimonials</h6>
                         <h2>Rave <span> Reviews </span> and <span> Memorable </span> Moments at Our Resort</h2>
@@ -459,7 +493,7 @@
                                         <div class="d-flex align-items-center mt-3 mt-sm-5 mt-md-7 mt-lg-3">
                                             <div><img src="image/testimonial_profile_img.png" class="img-profile"></div>
                                             <div class="testimonial-person">
-                                                <div class="Stars" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div>
+                                                <div class="stars" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div>
                                                 <h5>Chethan Gowda</h5>
                                             </div>
                                         </div>
@@ -482,7 +516,7 @@
                                         <div class="d-flex align-items-center mt-3 mt-sm-5 mt-md-7 mt-lg-3">
                                             <div><img src="image/testimonial_profile_img.png" class="img-profile"></div>
                                             <div class="testimonial-person">
-                                                <div class="Stars" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div>
+                                                <div class="stars" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div>
                                                 <h5>Chethan Gowda</h5>
                                             </div>
                                         </div>
@@ -505,7 +539,7 @@
                                         <div class="d-flex align-items-center mt-3 mt-sm-5 mt-md-7 mt-lg-3">
                                             <div><img src="image/testimonial_profile_img.png" class="img-profile"></div>
                                             <div class="testimonial-person">
-                                                <div class="Stars" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div>
+                                                <div class="stars" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div>
                                                 <h5>Chethan Gowda</h5>
                                             </div>
                                         </div>
@@ -526,7 +560,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <div class="get-in-touch d-flex align-items-center justify-content-between">
+                    <div class="get-in-touch d-flex align-items-center justify-content-between" data-aos="flip-up">
                         <div class="get-in-content">
                             <h4>Muthanga - Sanctuary of untamed beauty & wild whispers</h4>
                             <p>Wander through the labyrinthine trails, where each turn unfolds a new chapter in the story of biodiversity.</p>
@@ -568,7 +602,7 @@
                     <div class="footer-items-sec">
                         <h6>QUICKS LINKS</h6>
                         <p>
-                            <a href="#">Blog</a>
+                            <a href="blog.html">Blog</a>
                         </p>
                         <p>
                             <a href="#">News Letters</a>
@@ -577,7 +611,7 @@
                             <a href="#">Gallery</a>
                         </p>
                         <p>
-                            <a href="#">Packages</a>
+                            <a href="package.html">Packages</a>
                         </p>
                         <p>
                             <a href="#">Tourist Spots</a>
@@ -676,20 +710,24 @@
         </div>
     </section>
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/choose-expand.js"></script>
+    <script src="js/package-details-slider.js"></script>
     <script src="js/scroll-top.js"></script>
     <script>
         $(document).ready(function() {
-            AOS.init();
+            AOS.init({
+                duration: 2000 // Animation duration in milliseconds
+            });
         });
     </script>
+
 </body>
 
 </html>

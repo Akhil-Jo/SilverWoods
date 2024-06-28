@@ -33,9 +33,6 @@
   .card-insert-content-bottom-sec {
     bottom: 8px;
   }
-  .banner-box {
-    margin-right: 8em;
-  }
   .card-slider-explore .slick-prev {
     top: 170px;
   }
@@ -74,6 +71,13 @@
     font-size: 14px !important;
     line-height: 25px !important;
   }
+  .hotel-booking-img {
+    width: 100%;
+    height: auto !important;
+  }
+  .banner-content {
+    max-width: 930px;
+  }
 }
 @media only screen and (max-width: 1186px) {
   .get-consultation {
@@ -91,9 +95,6 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  .banner-box {
-    display: none !important;
-  }
   .nav-logo {
     width: 250px !important;
   }
@@ -183,6 +184,16 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
     padding: 0px 12px !important;
+  }
+  .modal-img-sec {
+    display: none !important;
+  }
+  .package-details-bottom-content h3 {
+    font-size: 28px !important;
+    line-height: 40px !important;
+  }
+  .banner-content {
+    max-width: 685px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -291,6 +302,16 @@
   }
   .stay-hotel-main {
     padding: 7rem 0 !important;
+  }
+  .contact-img {
+    height: 715px;
+  }
+  .package-details-bottom-content h3 {
+    font-size: 24px !important;
+    line-height: 35px !important;
+  }
+  .banner-content {
+    max-width: 510px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -470,6 +491,51 @@
   .check-hotel-booking {
     font-size: 12px;
   }
+  .blog-detail-head h3 {
+    font-size: 22px;
+  }
+  .blog-detail-head p {
+    font-size: 14px;
+  }
+  .blog-detail-share-items {
+    gap: 22px;
+    font-size: 18px;
+  }
+  .blog-detail-share-items p {
+    font-size: 15px;
+  }
+  .blog-detail-content-sec h5 {
+    font-size: 18px;
+  }
+  .blog-detail-content-sec p {
+    font-size: 14px;
+  }
+  .blog-detail-content-box-sec label {
+    font-size: 14px;
+  }
+  .sightsee-main-box-inner-head-sec h3 {
+    font-size: 24px !important;
+  }
+  .sightsee-main-box-inner-head-sec span {
+    font-size: 12px !important;
+  }
+  .sightsee-main-box-inner-center-sec p {
+    font-size: 14px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec i {
+    margin-right: 12px !important;
+    font-size: 20px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec span {
+    font-size: 14px !important;
+  }
+  .sightsee-read-more {
+    font-size: 14px !important;
+  }
+  .banner-content {
+    width: auto;
+    margin-right: 15px;
+  }
 }
 @media only screen and (max-width: 520px) {
   .get-consultation {
@@ -500,7 +566,7 @@
   .img-profile {
     width: 50px;
   }
-  .Stars {
+  .stars {
     font-size: 18px;
   }
   .testimonial-person h5 {
@@ -547,6 +613,25 @@
     font-size: 12px !important;
     line-height: 20px !important;
   }
+  .booking-content-main {
+    display: grid !important;
+  }
+  .booking-content-main .select-box {
+    max-width: 100% !important;
+  }
+  .booking-content-main .check-room-box {
+    text-align: end !important;
+  }
+  .booking-content-main .dropdown {
+    width: 100%;
+  }
+  .banner-banner-box-content-sec {
+    display: block !important;
+  }
+  .select-box {
+    max-width: 214px !important;
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .img-play-btn {
@@ -590,6 +675,45 @@
   .chooseUs-content h3 {
     font-size: 14px;
   }
+  .contact-contant-main h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .contact-contant-main h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .contact-contant-main p {
+    font-size: 14px;
+  }
+  .contact-content-sec h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .contact-content-sec p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .contact-img-inner-content-sec {
+    margin: 2em 1em;
+    padding: 2em 1em;
+  }
+  .contact-img-inner-content-sec h5 {
+    font-size: 12x;
+  }
+  .contact-img-inner-content-sec h2 {
+    font-size: 24px;
+  }
+  .contact-btn {
+    font-size: 12px;
+  }
+  .contact-img {
+    height: 530px;
+  }
+  .package-details-bottom-content h3 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
 }
 @media only screen and (max-width: 400px) {
   .testimonial-content h3 {
@@ -605,7 +729,7 @@
   .img-profile {
     width: 40px;
   }
-  .Stars {
+  .stars {
     font-size: 14px;
   }
   .testimonial-person h5 {
@@ -638,6 +762,41 @@
   .location-box {
     width: 200px;
     position: relative;
+  }
+  .package-details-table th {
+    font-size: 14px !important;
+  }
+  .package-details-table td {
+    font-size: 12px;
+  }
+  .sightsee-main-box-inner-head-sec h3 {
+    font-size: 18px !important;
+  }
+  .sightsee-main-box-inner-head-sec span {
+    font-size: 10px !important;
+  }
+  .sightsee-main-box-inner-center-sec p {
+    font-size: 14px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec i {
+    margin-right: 12px !important;
+    font-size: 20px !important;
+  }
+  .sightsee-main-box-inner-bottom-sec span {
+    font-size: 14px !important;
+  }
+  .sightsee-read-more {
+    font-size: 14px !important;
+  }
+  .select-box-text {
+    font-size: 12px !important;
+  }
+  .check-availability {
+    font-size: 12px !important;
+    padding: 9px 55px !important;
+  }
+  .select-box {
+    max-width: 208px !important;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -700,5 +859,26 @@
   }
   .newsletter-sec-main span {
     font-size: 12px !important;
+  }
+  .package-content-center h4 {
+    font-size: 16px !important;
+  }
+  .package-btn {
+    font-size: 13px !important;
+  }
+  .package-content-head h5 {
+    font-size: 12px !important;
+  }
+  .package-content-head h3 {
+    font-size: 16px !important;
+  }
+  .package-content-head {
+    top: 15px !important;
+    left: 10px !important;
+  }
+  .package-content-bottom {
+    position: absolute;
+    bottom: 10px !important;
+    right: 10px !important;
   }
 }/*# sourceMappingURL=media-query.css.map */
